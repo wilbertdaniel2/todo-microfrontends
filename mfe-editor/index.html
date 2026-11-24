@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Prueba aislada · todo-editor</title>
+  </head>
+  <body style="max-width: 700px; margin: 24px auto; font-family: sans-serif">
+    <h3>Prueba aislada de &lt;todo-editor&gt;</h3>
+    <todo-editor api-url="https://t795u1kstj.execute-api.us-east-1.amazonaws.com/dev/todos"></todo-editor>
+
+    <script type="module" src="/src/todo-editor.js"></script>
+    <script>
+      ["todo:created", "todo:updated", "todo:deleted"].forEach((n) =>
+        window.addEventListener(n, (e) => console.log(n, e.detail))
+      );
+    </script>
+  </body>
+</html>

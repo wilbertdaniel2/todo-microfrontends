@@ -1,0 +1,16 @@
+:host { display: block; font-family: system-ui, sans-serif; color: #1f2937; }
+* { box-sizing: border-box; }
+.panel { border: 1px solid #e5e7eb; border-radius: 10px; padding: 16px; background: #fff; }
+.head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+h2 { font-size: 1.1rem; margin: 0; }
+h3 { font-size: 1rem; margin: 16px 0 8px; }
+button { cursor: pointer; border: 1px solid #d1d5db; background: #f9fafb; border-radius: 6px; padding: 4px 10px; }
+ul { list-style: none; padding: 0; margin: 0; }
+.todo { width: 100%; text-align: left; display: flex; gap: 8px; padding: 8px 10px; margin-bottom: 6px; }
+.todo.selected { border-color: #2563eb; background: #eff6ff; }
+.todo.done span.title { text-decoration: line-through; color: #6b7280; }
+.state { color: #6b7280; font-size: 0.9rem; }
+.error { color: #b91c1c; }
+.detail { margin-top: 16px; border-top: 1px solid #e5e7eb; padding-top: 12px; }
+.history li { font-size: 0.9rem; padding: 4px 0; border-bottom: 1px dashed #e5e7eb; }
+.badge { font-family: monospace; background: #f3f4f6; padding: 1px 6px; border-radius: 4px; margin-right: 6px; }

@@ -4,7 +4,7 @@ Actividad final de **Sistemas Distribuidos**: la cara visible de la API de TODOs
 
 **Nivel objetivo: Intermedio** — tres tecnologías distintas (Vue, Lit y React), cada pieza compilada en `dist/` y expuesta como Custom Element.
 
-> **Modalidad individual.** La actividad está pensada para 3 personas y 3 cuentas de AWS. La desarrollé de forma individual con autorización del docente, usando **una sola cuenta con tres buckets diferentes** (ver `capturas/02-autorizacion-docente.png`).
+> **Modalidad individual.** La actividad está pensada para 3 personas y 3 cuentas de AWS. La desarrollé de forma individual con autorización del docente, usando **una sola cuenta con tres buckets diferentes** (ver `capturas/05-autorizacion-docente.png`).
 
 ## URLs públicas
 
@@ -87,10 +87,9 @@ done
 | Prueba | Captura |
 |---|---|
 | Los tres buckets con el ID de cuenta visible | ![Buckets](capturas/01-buckets-s3.png) |
-| Autorización del docente para trabajo individual | ![Autorización](capturas/02-autorizacion-docente.png) |
-| DevTools → Network con los tres orígenes | ![Network](capturas/03-network-origenes.png) |
-| Resiliencia: Editor bloqueado, Viewer funcionando | ![Resiliencia](capturas/04-resiliencia.png) |
-| Flujo completo | ![Flujo](capturas/05-flujo-completo.png) |
+| DevTools → Network con los tres orígenes | ![Network](capturas/02-network-origenes.png) |
+| Resiliencia: Editor bloqueado, Viewer funcionando | ![Resiliencia](capturas/03-resiliencia.png) |
+| Flujo completo | ![Flujo](capturas/04-flujo-completo.png) |
 
 ## Autor
 

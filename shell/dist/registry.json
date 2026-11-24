@@ -1,0 +1,18 @@
+{
+  "mfes": [
+    {
+      "name": "todo-editor",
+      "tag": "todo-editor",
+      "slot": "slot-editor",
+      "version": "1.0.0",
+      "url": "http://mfe-editor-avila9996.s3-website-us-east-1.amazonaws.com/todo-editor.js"
+    },
+    {
+      "name": "todo-viewer",
+      "tag": "todo-viewer",
+      "slot": "slot-viewer",
+      "version": "1.0.0",
+      "url": "http://mfe-viewer-avila9996.s3-website-us-east-1.amazonaws.com/todo-viewer.js"
+    }
+  ]
+}
